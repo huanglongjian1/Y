@@ -26,7 +26,7 @@ public class Main extends AppCompatActivity implements View.OnTouchListener {
         button.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-
+                Log.d("AAAAA", "DDDDDDDDDDDDDDDDDDDDDDDDD");
             }
         });
         surfaceGesturePath = inflater.findViewById(R.id.su);
@@ -39,7 +39,7 @@ public class Main extends AppCompatActivity implements View.OnTouchListener {
     @Override
     public boolean onTouch(View v, MotionEvent event) {
 
-        Log.d("AAAAA", "DDDDDDDDDDDDDDDDDDDDDDDDD");
+
         surfaceGesturePath.onTouchEvent(event);
         return false;
     }
