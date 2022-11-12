@@ -10,4 +10,5 @@ public class NewClass1 {
     public void setD(double d) {
         this.d = d;
     }
+    int 你好;
 }
